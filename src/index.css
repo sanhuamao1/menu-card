@@ -1,0 +1,56 @@
+/* 覆盖默认样式 */
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+/* 布局 */
+.container{
+    margin: 10em auto;
+    width: 200px;
+    box-shadow:1px 1px 1px 1px lightslategray;
+    border-radius: .2em;
+    display: flex;
+}
+.leftMenu{
+    flex: 1;
+}
+.rightMenu{
+    flex: 2;
+}
+
+
+/* 左侧样式 */
+.leftMenu li{
+    background-color: rgb(62, 114, 192);
+    color: whitesmoke;
+    font-size: .8em;
+    line-height: 2.6em;
+    text-align: center;
+    cursor: pointer;
+}
+.active{
+    background-color:whitesmoke !important;
+    color:rgb(62, 114, 192) !important;
+}
+
+/* 右侧样式 */
+.rightMenu{
+    margin: 0 1em;
+    overflow: hidden;
+}
+
+.rightTitle{
+    font-size: 1em;
+    line-height: 2em;
+    color: whitesmoke;
+    color: rgb(62, 114, 192);
+    display: block;
+}
+.rightDetail{
+    font-size: .8em;
+    line-height: 1.6em;
+}
