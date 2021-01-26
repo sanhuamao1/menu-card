@@ -40,7 +40,6 @@ li{
 /* 右侧样式 */
 .rightMenu{
     margin: 0 1em;
-    overflow: hidden;
 }
 
 .rightTitle{

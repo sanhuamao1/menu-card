@@ -14,7 +14,7 @@
         </ul>
     </div>
     <!-- 右侧内容栏 -->
-    <div ref="rigntMenu" :style="'height:' + scrollH + 'px'" class="rightMenu">
+    <div ref="rigntMenu" :style="'height:' + scrollH + 'px'" style="overflow: hidden" class="rightMenu">
         <ul>
             <li v-for="(item, index) in foodList"  :key="index"  ref="rightItem">
                 <span class="rightTitle">{{ item.name }}</span>
